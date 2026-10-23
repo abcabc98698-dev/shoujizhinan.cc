@@ -64,8 +64,8 @@ body {
 }
 
 .answer-box .answer-title::before {
-  content: "💡 核心结论 (Answer-First)";
-  margin-right: 0.5rem;
+  content: "💡 ";
+  margin-right: 0.35rem;
 }
 
 .answer-box p {

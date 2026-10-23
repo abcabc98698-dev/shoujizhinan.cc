@@ -8,12 +8,14 @@ const GOOGLE_VERIFICATION = process.env.GOOGLE_SITE_VERIFICATION || ''
 const BING_VERIFICATION = process.env.BING_SITE_VERIFICATION || ''
 const BAIDU_VERIFICATION = process.env.BAIDU_SITE_VERIFICATION || ''
 const SHENMA_VERIFICATION = process.env.SHENMA_SITE_VERIFICATION || ''
+const YANDEX_VERIFICATION = process.env.YANDEX_SITE_VERIFICATION || '2c8f6065ab5d7890'
 
 const VERIFICATION_TAGS: HeadConfig[] = [
   GOOGLE_VERIFICATION && ['meta', { name: 'google-site-verification', content: GOOGLE_VERIFICATION }],
   BING_VERIFICATION && ['meta', { name: 'msvalidate.01', content: BING_VERIFICATION }],
   BAIDU_VERIFICATION && ['meta', { name: 'baidu-site-verification', content: BAIDU_VERIFICATION }],
-  SHENMA_VERIFICATION && ['meta', { name: 'shenma-site-verification', content: SHENMA_VERIFICATION }]
+  SHENMA_VERIFICATION && ['meta', { name: 'shenma-site-verification', content: SHENMA_VERIFICATION }],
+  YANDEX_VERIFICATION && ['meta', { name: 'yandex-verification', content: YANDEX_VERIFICATION }]
 ].filter(Boolean) as HeadConfig[]
 
 export default defineConfig({

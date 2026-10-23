@@ -252,48 +252,53 @@ Android 系统在 4.0 (Ice Cream Sandwich) 之后引入了系统级的 `android.
 
 在实际移动端使用中，再出色的客户端也需要依托高质量的跨境线路基础设施。以下为 2026 年度针对手机移动场景综合测试评分最高的精选方案：
 
-<div class="conversion-card">
+<div class="conversion-card" style="border: 2px solid #2563eb; box-shadow: 0 4px 14px rgba(37,99,235,0.12);">
   <div class="conversion-header">
-    <h4>极光国际 · 移动专线全能旗舰</h4>
-    <span class="badge-tier">五星旗舰首选</span>
+    <div>
+      <h4 style="font-size: 1.35rem; color: #1e40af; margin-bottom: 0.2rem;">🥇 光速云 · 全能 IEPL 企业专线（全站首推旗舰）</h4>
+      <span style="font-size: 0.8rem; color: #64748b;">2020年老牌稳定运营 · 全球 IEPL 专线 · VLESS 现代协议 · 自研+第三方客户端</span>
+    </div>
+    <span class="badge-tier" style="background:#2563eb; color:#fff; font-size:0.85rem; padding:0.3rem 0.8rem;">全能首选</span>
   </div>
   <div class="conversion-body">
     <div class="conversion-specs">
       <ul>
-        <li><strong>核心技术：</strong>全节点配备 IEPL 华为企业级内网跨境光纤，晚高峰 0 丢包</li>
-        <li><strong>协议矩阵：</strong>支持 Shadowsocks 2022、VLESS-Reality 与 Hysteria 2</li>
-        <li><strong>移动端表现：</strong>iPhone 小火箭配置智能唤醒，安卓端支持 App 级精准分流</li>
-        <li><strong>网络测试：</strong>中国电信/移动/联通三网延迟均衡在 35ms 以内，无抖动</li>
-        <li><strong>流媒体支持：</strong>原生家庭 IP 解锁 Netflix 4K, Disney+, Spotify, TikTok</li>
+        <li><strong>核心线路：</strong>全系部署企业级 IEPL 专线，珠海联通实测香港延迟低至 <strong>22ms</strong>，晚高峰 0 丢包</li>
+        <li><strong>协议矩阵：</strong>支持现代抗封锁 VLESS 协议，手机能耗比极佳，待机省电长效保活</li>
+        <li><strong>移动端支持：</strong>提供官方自研 Android 极简端；支持一键导入 iOS 小火箭与 Clash Meta</li>
+        <li><strong>流媒体与出海：</strong>完整解锁 Netflix 4K, Disney+, YouTube, ChatGPT, Claude, TikTok</li>
+        <li><strong>特色套餐：</strong>轻量版 ¥99/年（折合仅 <strong>¥8.25/月</strong>），极速版 ¥25/月，致敬斯诺克 147 永久买断不过期</li>
+        <li><strong>专属优惠：</strong>结账输入优惠码 <code style="color:#2563eb; font-weight:700;">AMM</code> 享立减折扣</li>
       </ul>
     </div>
     <div class="conversion-action">
-      <div class="conversion-price">¥ 28.00 <span class="conversion-price-unit">/ 月起</span></div>
-      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">150GB 高速专线流量 · 多端同登</div>
-      <a href="/jichang-tuijian/zonghe-ceping" class="conversion-btn">查阅深度测评报告</a>
+      <div class="conversion-price">¥ 25.00 <span class="conversion-price-unit">/ 月 (年付折合 ¥8/月)</span></div>
+      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">支持 ¥147 永久不过期套餐</div>
+      <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="nofollow sponsored noopener" class="conversion-btn">直达光速云官网注册</a>
+      <div style="margin-top: 0.5rem; font-size: 0.8rem;"><a href="/jichang-tuijian/guangsuyun">查阅光速云实测报告 →</a></div>
     </div>
   </div>
 </div>
 
 <div class="conversion-card">
   <div class="conversion-header">
-    <h4>星云轻量 · 小白免配置即享方案</h4>
-    <span class="badge-tier">小白友好推荐</span>
+    <h4>🥈 飞猫云 (FlyCat) · 移动轻快高性价比推荐</h4>
+    <span class="badge-tier">平价轻快</span>
   </div>
   <div class="conversion-body">
     <div class="conversion-specs">
       <ul>
-        <li><strong>专属生态：</strong>定制 Android/iOS 专属极简客户端，微信扫码一键登录即用</li>
-        <li><strong>线路质量：</strong>BGP 多线中转架构，智能优选离用户物理距离最近的接入点</li>
-        <li><strong>新手守护：</strong>内置智能防断流规则，默认阻断国内涉诈网站，保护网银通信</li>
-        <li><strong>计费模式：</strong>支持极低门槛的月付制与试用包，不满意随时终止</li>
-        <li><strong>客服响应：</strong>提供移动端 7×12 小时在线工单与 Telegram 实时交流群</li>
+        <li><strong>核心架构：</strong>2023 年平稳运营，主打移动弱网轻快稳定连接与亚洲近端加速</li>
+        <li><strong>网络跑分：</strong>珠海联通实测香港 25ms、新加坡 48ms，轻度查资料与推特秒开</li>
+        <li><strong>客户端生态：</strong>全协议支持 Shadowsocks，全平台客户端极速扫码导入</li>
+        <li><strong>优惠码支持：</strong>结账输入专属优惠码 <code style="color:#2563eb; font-weight:700;">flycat888</code> 享立减优惠</li>
       </ul>
     </div>
     <div class="conversion-action">
-      <div class="conversion-price">¥ 12.00 <span class="conversion-price-unit">/ 月起</span></div>
-      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">60GB/月 · 零技术门槛体验</div>
-      <a href="/jichang-tuijian/zhuanshu-kehuduan" class="conversion-btn">获取免配置安装包</a>
+      <div class="conversion-price">¥ 7.00 <span class="conversion-price-unit">/ 月起 (年付优惠折算)</span></div>
+      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">含 50GB/月高速专线流量</div>
+      <a href="https://guangs.flycataff.com/#/?code=6uq0Xe9y" target="_blank" rel="nofollow sponsored noopener" class="conversion-btn">直达飞猫云官网注册</a>
+      <div style="margin-top: 0.5rem; font-size: 0.8rem;"><a href="/jichang-tuijian/feimaoyun">查阅飞猫云实测报告 →</a></div>
     </div>
   </div>
 </div>

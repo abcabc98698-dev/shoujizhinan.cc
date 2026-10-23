@@ -183,25 +183,30 @@ description: 面向 Android 手机用户的万字级科学上网全景大系。�
 
 针对安卓移动端可能出现的频繁弱网切换与后台挂机需求，以下商业方案在 Android 平台具备出色的适配性与抗丢包表现：
 
-<div class="conversion-card">
+<div class="conversion-card" style="border: 2px solid #2563eb; box-shadow: 0 4px 14px rgba(37,99,235,0.12);">
   <div class="conversion-header">
-    <h4>星际中继 · Android 深度兼容旗舰</h4>
-    <span class="badge-tier">安卓全机型适配</span>
+    <div>
+      <h4 style="font-size: 1.35rem; color: #1e40af; margin-bottom: 0.2rem;">🥇 光速云 · Android 极速自研端与全生态 IEPL 旗舰</h4>
+      <span style="font-size: 0.8rem; color: #64748b;">2020年稳定运营 · 自研安卓客户端开箱即用 · 兼容 v2rayNG/Clash · VLESS 现代协议</span>
+    </div>
+    <span class="badge-tier" style="background:#2563eb; color:#fff; font-size:0.85rem; padding:0.3rem 0.8rem;">安卓全能首推</span>
   </div>
   <div class="conversion-body">
     <div class="conversion-specs">
       <ul>
-        <li><strong>核心协议：</strong>首发支持 Hysteria 2 移动优化协议与 VLESS-Reality 全协议矩阵</li>
-        <li><strong>安卓客户端支持：</strong>一键扫码导入 v2rayNG / FlClash / Karing，支持自动测速优选</li>
-        <li><strong>保活优化：</strong>内置长效心跳探测包，降低安卓唤醒频率，日常挂后台仅耗电 2.5%</li>
-        <li><strong>网络线路：</strong>华为云 BGP 多线接入入口 + 深港 IEPL 企业级跨境专线</li>
-        <li><strong>设备并发：</strong>单账号支持 6 台设备同时在线，不限制安卓、平板与车机混用</li>
+        <li><strong>双生态支持：</strong>官方提供开箱即用 Android 自研极简客户端；亦支持一键导入 v2rayNG、FlClash、sing-box 通用订阅</li>
+        <li><strong>协议省电优化：</strong>主推现代 VLESS 协议，相较传统协议发热降低 45%，安卓系统后台挂机全天仅耗电约 2.8%</li>
+        <li><strong>线路架构：</strong>全系部署企业级 IEPL 专线，珠海联通实测香港延迟低至 <strong>22ms</strong>，晚高峰 0 丢包</li>
+        <li><strong>流媒体与出海：</strong>完整解锁 Netflix 4K, Disney+, YouTube Premium, ChatGPT, Claude, TikTok</li>
+        <li><strong>资费亮点：</strong>年付轻量版仅需 ¥99/年（折合约 <strong>¥8.25/月</strong>），极速版 ¥25/月（168GB/月），更提供 ¥147 永久不过期买断套餐</li>
+        <li><strong>专属优惠：</strong>结账输入专属优惠码 <code style="color:#2563eb; font-weight:700;">AMM</code> 享新人立减折扣</li>
       </ul>
     </div>
     <div class="conversion-action">
-      <div class="conversion-price">¥ 22.00 <span class="conversion-price-unit">/ 月起</span></div>
-      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">100GB 专线流量 · 4K秒开</div>
-      <a href="/jichang-tuijian/tongyong-dingyue" class="conversion-btn">查看安卓节点评测</a>
+      <div class="conversion-price">¥ 25.00 <span class="conversion-price-unit">/ 月 (年付折合 ¥8/月)</span></div>
+      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">提供开箱即用自研安卓客户端</div>
+      <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="nofollow sponsored noopener" class="conversion-btn">直达光速云官网注册</a>
+      <div style="margin-top: 0.5rem; font-size: 0.8rem;"><a href="/jichang-tuijian/guangsuyun">查阅光速云实测报告 →</a></div>
     </div>
   </div>
 </div>

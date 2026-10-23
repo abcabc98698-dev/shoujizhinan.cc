@@ -177,25 +177,30 @@ description: 面向苹果 iOS 与 iPadOS 用户的万字级科学上网全景图
 
 针对苹果系统严格的待机唤醒机制，以下商业专线服务在 iOS 端具备优异的低延迟响应与省电表现：
 
-<div class="conversion-card">
+<div class="conversion-card" style="border: 2px solid #2563eb; box-shadow: 0 4px 14px rgba(37,99,235,0.12);">
   <div class="conversion-header">
-    <h4>星云极速 · iOS 小火箭原生优化专线</h4>
-    <span class="badge-tier">苹果生态优选</span>
+    <div>
+      <h4 style="font-size: 1.35rem; color: #1e40af; margin-bottom: 0.2rem;">🥇 光速云 · iOS 小火箭原生适配 IEPL 专线旗舰</h4>
+      <span style="font-size: 0.8rem; color: #64748b;">2020年老牌稳定运营 · 全球 IEPL 专线 · VLESS 现代抗封锁 · 小火箭一秒导入</span>
+    </div>
+    <span class="badge-tier" style="background:#2563eb; color:#fff; font-size:0.85rem; padding:0.3rem 0.8rem;">苹果首推</span>
   </div>
   <div class="conversion-body">
     <div class="conversion-specs">
       <ul>
-        <li><strong>小火箭一键适配：</strong>提供直接唤起 Shadowrocket 深度链接，一秒完成节点下发</li>
-        <li><strong>线路架构：</strong>香港/日本/新加坡 IPLC 企业级内网专线，物理无视基站换频波动</li>
-        <li><strong>低功耗协议：</strong>主推 Shadowsocks-2022 与 VLESS-Reality，待机唤醒延迟 &lt; 0.3s</li>
-        <li><strong>流媒体与出海：</strong>完整解锁美区/港区/日区 Netflix 4K, Disney+, Apple TV+, TikTok</li>
-        <li><strong>设备支持：</strong>一份订阅支持 iPhone, iPad, Mac 全套苹果全家桶同时在线</li>
+        <li><strong>小火箭原生适配：</strong>官网后台一键唤起 Shadowrocket 自动订阅下发，无需手动复制节点</li>
+        <li><strong>线路架构：</strong>全系部署 IEPL 企业级专线，珠海联通实测香港延迟低至 <strong>22ms</strong>，晚高峰 0 丢包</li>
+        <li><strong>低功耗协议：</strong>主推现代 VLESS 协议，iOS 后台挂机极低耗电，待机唤醒即时响应</li>
+        <li><strong>流媒体与出海：</strong>完整解锁港/日/美区 Netflix 4K, Disney+, Apple TV+, ChatGPT, TikTok</li>
+        <li><strong>资费亮点：</strong>入门年付 ¥99/年（折合约 <strong>¥8.25/月</strong>），极速版 ¥25/月（168GB/月），更提供 ¥147 永久不过期买断套餐</li>
+        <li><strong>专属优惠：</strong>结账输入优惠码 <code style="color:#2563eb; font-weight:700;">AMM</code> 享立减折扣</li>
       </ul>
     </div>
     <div class="conversion-action">
-      <div class="conversion-price">¥ 26.00 <span class="conversion-price-unit">/ 月起</span></div>
-      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">130GB 纯专线流量 · 4K秒开</div>
-      <a href="/jichang-tuijian/zonghe-ceping" class="conversion-btn">查阅苹果实测数据</a>
+      <div class="conversion-price">¥ 25.00 <span class="conversion-price-unit">/ 月 (年付折合 ¥8/月)</span></div>
+      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">支持 ¥147 永久不过期套餐</div>
+      <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="nofollow sponsored noopener" class="conversion-btn">直达光速云官网注册</a>
+      <div style="margin-top: 0.5rem; font-size: 0.8rem;"><a href="/jichang-tuijian/guangsuyun">查阅光速云实测报告 →</a></div>
     </div>
   </div>
 </div>

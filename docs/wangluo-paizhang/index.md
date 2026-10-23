@@ -169,25 +169,29 @@ description: 面向移动用户的万字级手机翻墙网络排障手册。彻�
 
 任何单家机场都可能面临上游光缆突发故障、入口服务器被攻击等不可抗力。老玩家的黄金策略是**主备分离**，在手机端常备一个低门槛备用节点：
 
-<div class="conversion-card">
+<div class="conversion-card" style="border: 2px solid #2563eb; box-shadow: 0 4px 14px rgba(37,99,235,0.12);">
   <div class="conversion-header">
-    <h4>随心备用宝 · 不限时永不过期应急包</h4>
-    <span class="badge-tier">排障必备副卡</span>
+    <div>
+      <h4 style="font-size: 1.35rem; color: #1e40af; margin-bottom: 0.2rem;">🥇 光速云 · 致敬斯诺克 147 永久不过期应急副卡</h4>
+      <span style="font-size: 0.8rem; color: #64748b;">排障必备副卡 · 一次性买断 ¥147 · 247GB 流量永久不过期 · 物理级主备容灾</span>
+    </div>
+    <span class="badge-tier" style="background:#2563eb; color:#fff; font-size:0.85rem; padding:0.3rem 0.8rem;">长效应急神器</span>
   </div>
   <div class="conversion-body">
     <div class="conversion-specs">
       <ul>
-        <li><strong>长效待命：</strong>流量永不过期，无月租压力，平时静默存放，关键时刻一秒启用</li>
-        <li><strong>独立骨干：</strong>采用与主用专线完全不同的独立上游机房，物理级容灾冗余</li>
-        <li><strong>极速自愈：</strong>全节点支持 VLESS-Reality 与 Hysteria 2，抗重度网络封锁</li>
-        <li><strong>适用场景：</strong>主力机场维护、敏感时期大断网、紧急出海办公排障必备</li>
-        <li><strong>超低门槛：</strong>仅需一杯咖啡的费用，彻底终结出海失联焦虑</li>
+        <li><strong>长效不过期：</strong>一次性买断支付 ¥147，享 <strong>247GB 永久不过期专线流量</strong>，平时零月租，静默存放 1~2 年均可随时启用</li>
+        <li><strong>独立专线容灾：</strong>全系部署 IEPL 企业级独立专线，晚高峰香港延迟低至 22ms，与普通公网节点形成物理级容灾隔离</li>
+        <li><strong>排障急救神品：</strong>当主力网络因换手机、改配置或骨干网抖动中断时，一键切换光速云保底，瞬间排查问题</li>
+        <li><strong>全生态适配：</strong>自带官方极简自研端，并完整支持 Shadowrocket、v2rayNG、Clash Meta 原生通用订阅</li>
+        <li><strong>专属优惠码：</strong>结账输入优惠码 <code style="color:#2563eb; font-weight:700;">AMM</code> 享专属优惠</li>
       </ul>
     </div>
     <div class="conversion-action">
-      <div class="conversion-price">¥ 29.00 <span class="conversion-price-unit">/ 100GB 永久有效</span></div>
-      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">一次购买 · 随时待命应急出海</div>
-      <a href="/tizi-tuijian/dijia-tizi" class="conversion-btn">获取应急排障备用包</a>
+      <div class="conversion-price">¥ 147 <span class="conversion-price-unit">一次性买断</span></div>
+      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">247GB 流量永久不过期 · 零月租压力</div>
+      <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="nofollow sponsored noopener" class="conversion-btn">直达光速云官网抢购</a>
+      <div style="margin-top: 0.5rem; font-size: 0.8rem;"><a href="/jichang-tuijian/guangsuyun">查阅光速云实测报告 →</a></div>
     </div>
   </div>
 </div>

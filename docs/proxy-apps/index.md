@@ -185,25 +185,30 @@ v2rayNG   FlClash    Karing / Hiddify              Shadowrocket     sing-box / K
 
 再优秀的客户端，也必须搭配格式规范、更新及时的订阅源。以下精选机场经过主流客户端全量导入与自动化测试：
 
-<div class="conversion-card">
+<div class="conversion-card" style="border: 2px solid #2563eb; box-shadow: 0 4px 14px rgba(37,99,235,0.12);">
   <div class="conversion-header">
-    <h4>全通云 · 多客户端通用专线旗舰</h4>
-    <span class="badge-tier">全客户端完美兼容</span>
+    <div>
+      <h4 style="font-size: 1.35rem; color: #1e40af; margin-bottom: 0.2rem;">🥇 光速云 · 多客户端全兼容与自研极简端专线旗舰</h4>
+      <span style="font-size: 0.8rem; color: #64748b;">全客户端完美兼容 · 自研开箱即用极简端 · 原生直连 Shadowrocket / v2rayNG / Clash Meta / sing-box</span>
+    </div>
+    <span class="badge-tier" style="background:#2563eb; color:#fff; font-size:0.85rem; padding:0.3rem 0.8rem;">全格式适配</span>
   </div>
   <div class="conversion-body">
     <div class="conversion-specs">
       <ul>
-        <li><strong>格式全适配：</strong>提供 v2rayNG、Shadowrocket、Clash Meta、sing-box 标准原生订阅源</li>
-        <li><strong>线路质量：</strong>BGP 多线入口调度 + IPLC 纯内网专线直达香港/日本机房</li>
-        <li><strong>节点丰富度：</strong>覆盖全球 45+ 国家与地区，提供针对 ChatGPT/TikTok 专属独立分组</li>
-        <li><strong>自动化运维：</strong>提供节点自动容灾切换与晚高峰动态带宽智能扩容</li>
-        <li><strong>设备政策：</strong>不限制同时登录设备类型，支持手机与电脑跨平台共享</li>
+        <li><strong>格式全适配：</strong>官网后台一键下发 v2rayNG、Shadowrocket、Clash Meta、sing-box 标准原生订阅源</li>
+        <li><strong>自研小白端：</strong>针对不想折腾配置的新手，提供扫码一键登录的 Android / Windows 官方专属客户端</li>
+        <li><strong>线路架构：</strong>全系部署企业级 IEPL 专线，珠海联通实测香港延迟低至 <strong>22ms</strong>，单节点峰值 2.5Gbps</li>
+        <li><strong>现代协议支持：</strong>主推现代抗封锁 VLESS 协议，手机低发热、长效省电挂机</li>
+        <li><strong>资费亮点：</strong>入门年付 ¥99/年（折合仅 <strong>¥8.25/月</strong>），极速版 ¥25/月，支持 ¥147 致敬斯诺克永久买断不过期</li>
+        <li><strong>专属优惠：</strong>结账输入优惠码 <code style="color:#2563eb; font-weight:700;">AMM</code> 享立减折扣</li>
       </ul>
     </div>
     <div class="conversion-action">
-      <div class="conversion-price">¥ 20.00 <span class="conversion-price-unit">/ 月起</span></div>
-      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">100GB 高速流量 · 全格式订阅一键导入</div>
-      <a href="/jichang-tuijian/tongyong-dingyue" class="conversion-btn">查看客户端导入教程</a>
+      <div class="conversion-price">¥ 25.00 <span class="conversion-price-unit">/ 月 (年付折合 ¥8/月)</span></div>
+      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">全客户端一键下发 · 支持永久不过期</div>
+      <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="nofollow sponsored noopener" class="conversion-btn">直达光速云官网注册</a>
+      <div style="margin-top: 0.5rem; font-size: 0.8rem;"><a href="/jichang-tuijian/guangsuyun">查阅光速云实测报告 →</a></div>
     </div>
   </div>
 </div>

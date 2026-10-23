@@ -167,25 +167,52 @@ description: 面向移动用户的万字级免费科学上网避坑大系。全�
 
 与其冒着被监听、被乱扣费的巨大风险使用免费工具，不如选择以下经过安全审计的极低门槛平价方案：
 
-<div class="conversion-card">
+<div class="conversion-card" style="border: 2px solid #2563eb; box-shadow: 0 4px 14px rgba(37,99,235,0.12);">
   <div class="conversion-header">
-    <h4>轻灵微云 · 学生党平价极速首选</h4>
-    <span class="badge-tier">超低门槛体验</span>
+    <div>
+      <h4 style="font-size: 1.35rem; color: #1e40af; margin-bottom: 0.2rem;">🥇 唯兔云 · 个位数超低门槛纯月付首选</h4>
+      <span style="font-size: 0.8rem; color: #64748b;">告别免费代理风险 · 真实纯月付 ¥9/月 · 60GB 高速流量 · 苹果安卓秒导入</span>
+    </div>
+    <span class="badge-tier" style="background:#2563eb; color:#fff; font-size:0.85rem; padding:0.3rem 0.8rem;">平民尝鲜</span>
   </div>
   <div class="conversion-body">
     <div class="conversion-specs">
       <ul>
-        <li><strong>超低资费：</strong>每月仅需 ¥ 6.00，支持纯月付，拒绝任何隐形扣费</li>
-        <li><strong>配额充裕：</strong>提供 40GB 高速 BGP 中转流量，满足日常查资料与轻度 YouTube</li>
-        <li><strong>无广告无流氓：</strong>提供标准 Universal 订阅，直接导入开源 v2rayNG / 小火箭</li>
-        <li><strong>线路保障：</strong>晚高峰电信/移动/联通全天候可用，告别免费节点的频繁超时</li>
-        <li><strong>安全协议：</strong>支持 VLESS-Reality 与 Shadowsocks-2022，保障个人隐私端到端加密</li>
+        <li><strong>极低尝鲜门槛：</strong>纯月付仅需 <strong>¥ 9.00 / 月</strong>，绝无任何自动扣款或隐形扣费陷阱</li>
+        <li><strong>配额充裕：</strong>提供 60GB/月 高速中转流量，日常查资料、看推特、轻度 YouTube 4K 绰绰有余</li>
+        <li><strong>全生态适配：</strong>支持输出 Shadowsocks 标准通用订阅，一键导入开源 v2rayNG 与苹果小火箭</li>
+        <li><strong>隐私端到端加密：</strong>拒绝免费代理窥探设备信息，节点高可用，告别频繁掉线</li>
+        <li><strong>专属优惠：</strong>结账输入优惠码 <code style="color:#2563eb; font-weight:700;">weitu666</code> 享立减折扣</li>
       </ul>
     </div>
     <div class="conversion-action">
-      <div class="conversion-price">¥ 6.00 <span class="conversion-price-unit">/ 月起</span></div>
-      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">40GB/月 · 每天仅需两毛钱</div>
-      <a href="/mianfei-jichang/diben-fangan" class="conversion-btn">查看低成本实测报告</a>
+      <div class="conversion-price">¥ 9.00 <span class="conversion-price-unit">/ 月起</span></div>
+      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">60GB/月 · 每天仅需三毛钱</div>
+      <a href="https://guangs.v2yunvipaff.com/#/?code=xIutqOBA" target="_blank" rel="nofollow sponsored noopener" class="conversion-btn">直达唯兔云官网注册</a>
+      <div style="margin-top: 0.5rem; font-size: 0.8rem;"><a href="/jichang-tuijian/weitu">查阅唯兔云实测报告 →</a></div>
+    </div>
+  </div>
+</div>
+
+<div class="conversion-card">
+  <div class="conversion-header">
+    <h4>⭐ 光速云 · 致敬斯诺克 147 永久不过期套餐（买断防失联）</h4>
+    <span class="badge-tier">一次买断不清零</span>
+  </div>
+  <div class="conversion-body">
+    <div class="conversion-specs">
+      <ul>
+        <li><strong>永久不清零：</strong>¥147 一次性买断，享 <strong>247GB 永久不过期流量</strong>，用一年两年都不失效</li>
+        <li><strong>企业级品质：</strong>IEPL 企业专线 + VLESS 现代协议，晚高峰香港延迟低至 22ms</li>
+        <li><strong>避坑首选：</strong>不限设备数量，平时不扣月租，彻底告别免费工具的不安全感</li>
+        <li><strong>专属优惠码：</strong>结账输入专属优惠码 <code style="color:#2563eb; font-weight:700;">AMM</code></li>
+      </ul>
+    </div>
+    <div class="conversion-action">
+      <div class="conversion-price">¥ 147 <span class="conversion-price-unit">一次性买断</span></div>
+      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">247GB 永久不过期流量</div>
+      <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="nofollow sponsored noopener" class="conversion-btn">直达光速云官网抢购</a>
+      <div style="margin-top: 0.5rem; font-size: 0.8rem;"><a href="/jichang-tuijian/guangsuyun">查阅光速云实测报告 →</a></div>
     </div>
   </div>
 </div>

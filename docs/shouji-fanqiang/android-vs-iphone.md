@@ -169,7 +169,7 @@ description: 深入解析 Android 与 iOS 移动操作系统在底层网络接�
     </div>
   </div>
   <div class="conversion-action">
-    <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="nofollow sponsored noopener" class="btn-primary">
       前往光速云官网选购套餐 →
     </a>
   </div>

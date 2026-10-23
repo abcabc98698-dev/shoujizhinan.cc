@@ -180,7 +180,7 @@ description: 深度剖析网络空间安全视角下免费代理的致命技术�
     </div>
   </div>
   <div class="conversion-action">
-    <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="nofollow sponsored noopener" class="btn-primary">
       前往光速云官网选购套餐 →
     </a>
   </div>

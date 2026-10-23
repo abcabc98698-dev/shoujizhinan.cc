@@ -105,7 +105,7 @@ description: 基于三大运营商 5G 网络与 90 天全天候真实拨测。�
     </div>
   </div>
   <div class="conversion-action">
-    <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="nofollow sponsored noopener" class="btn-primary">
       前往光速云官网选购套餐 →
     </a>
   </div>

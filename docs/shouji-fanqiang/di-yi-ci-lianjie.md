@@ -181,7 +181,7 @@ description: 专为零基础手机新手打造的第一次科学上网全流程�
     </div>
   </div>
   <div class="conversion-action">
-    <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="nofollow sponsored noopener" class="btn-primary">
       前往光速云官网选购套餐 →
     </a>
   </div>

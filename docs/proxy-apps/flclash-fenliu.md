@@ -147,7 +147,7 @@ FlClash 并非简易的前端套壳，而是通过 Dart:FFI（外部函数接口
     </div>
   </div>
   <div class="conversion-action">
-    <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="nofollow sponsored noopener" class="btn-primary">
       前往光速云官网选购套餐 →
     </a>
   </div>

@@ -11,6 +11,10 @@ DirectoryIndex index.html
   RewriteCond %{HTTP_HOST} ^www\.shoujizhinan\.cc$ [NC]
   RewriteRule ^(.*)$ https://shoujizhinan.cc/$1 [L,R=301]
 
+  # 2. Force HTTPS: Redirect all HTTP requests to HTTPS
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://shoujizhinan.cc/$1 [L,R=301]
+
   # 2. Clean URLs support for VitePress:
   # If request does not have .html and corresponding .html file exists, rewrite internally
   RewriteCond %{REQUEST_FILENAME} !-d
@@ -61,6 +65,7 @@ DirectoryIndex index.html
 
 # Security Headers
 <IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
   Header set X-Content-Type-Options "nosniff"
   Header set X-Frame-Options "SAMEORIGIN"
   Header set X-XSS-Protection "1; mode=block"

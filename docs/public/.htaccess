@@ -1,0 +1,72 @@
+# Apache Static Deployment Configuration for shoujizhinan.cc
+# Optimized for VitePress (cleanUrls: true), High Performance, Caching & Security
+
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # 1. Canonical Host: Redirect www to non-www
+  RewriteCond %{HTTP_HOST} ^www\.shoujizhinan\.cc$ [NC]
+  RewriteRule ^(.*)$ https://shoujizhinan.cc/$1 [L,R=301]
+
+  # 2. Clean URLs support for VitePress:
+  # If request does not have .html and corresponding .html file exists, rewrite internally
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+  RewriteRule ^(.*)/?$ $1.html [L]
+
+  # 3. Resolve trailing slash on directories to index.html
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_FILENAME}/index.html -f
+  RewriteRule ^(.*)/$ $1/index.html [L]
+</IfModule>
+
+# MIME Types configuration
+<IfModule mod_mime.c>
+  AddType application/javascript .mjs .js
+  AddType application/json .json
+  AddType application/wasm .wasm
+  AddType image/svg+xml .svg .svgz
+  AddType text/css .css
+  AddType application/xml .xml
+</IfModule>
+
+# Gzip / Brotli Compression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript
+  AddOutputFilterByType DEFLATE application/javascript application/json application/xml application/wasm
+  AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# Browser Caching Headers
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
+
+  # HTML files - revalidate for fast updates
+  ExpiresByType text/html "access plus 10 minutes"
+
+  # Static Assets (hashed assets from VitePress)
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType application/wasm "access plus 1 year"
+</IfModule>
+
+# Security Headers
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+</IfModule>
+
+# Custom 404 Error Document
+ErrorDocument 404 /404.html

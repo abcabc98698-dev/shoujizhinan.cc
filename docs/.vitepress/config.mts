@@ -1,5 +1,20 @@
-import { defineConfig } from 'vitepress'
+import path from 'node:path'
+import { defineConfig, type HeadConfig } from 'vitepress'
 import { pagefindPlugin } from 'vitepress-plugin-pagefind'
+import { extractFaqSchema, generateBreadcrumbSchema } from './seoHelper'
+
+// 搜索引擎站长平台验证 Token（已支持环境变量自动注入或直接在此填入）
+const GOOGLE_VERIFICATION = process.env.GOOGLE_SITE_VERIFICATION || ''
+const BING_VERIFICATION = process.env.BING_SITE_VERIFICATION || ''
+const BAIDU_VERIFICATION = process.env.BAIDU_SITE_VERIFICATION || ''
+const SHENMA_VERIFICATION = process.env.SHENMA_SITE_VERIFICATION || ''
+
+const VERIFICATION_TAGS: HeadConfig[] = [
+  GOOGLE_VERIFICATION && ['meta', { name: 'google-site-verification', content: GOOGLE_VERIFICATION }],
+  BING_VERIFICATION && ['meta', { name: 'msvalidate.01', content: BING_VERIFICATION }],
+  BAIDU_VERIFICATION && ['meta', { name: 'baidu-site-verification', content: BAIDU_VERIFICATION }],
+  SHENMA_VERIFICATION && ['meta', { name: 'shenma-site-verification', content: SHENMA_VERIFICATION }]
+].filter(Boolean) as HeadConfig[]
 
 export default defineConfig({
   title: '手机指南',
@@ -24,110 +39,152 @@ export default defineConfig({
     ['meta', { name: 'keywords', content: '手机翻墙, 安卓科学上网, 苹果梯子, iPhone科学上网, 手机代理软件, v2rayNG, Shadowrocket, 小火箭, 手机机场推荐, 移动网络排障' }],
     ['meta', { name: 'author', content: '手机指南 shoujizhinan.cc 评测实验室' }],
     ['meta', { property: 'og:site_name', content: '手机指南' }],
-    ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'zh_CN' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'theme-color', content: '#2563eb' }]
+    ['meta', { name: 'twitter:image', content: 'https://shoujizhinan.cc/avatar.jpg' }],
+    ['meta', { name: 'theme-color', content: '#2563eb' }],
+    ['meta', { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' }],
+    ...VERIFICATION_TAGS
   ],
   transformHead({ pageData }) {
     const rawPath = pageData.relativePath.replace(/(index)?\.md$/, '').replace(/\/$/, '')
     const canonicalUrl = rawPath ? `https://shoujizhinan.cc/${rawPath}` : 'https://shoujizhinan.cc'
-    
     const isHome = pageData.relativePath === 'index.md'
+    const isPillar = pageData.relativePath.endsWith('index.md') && !isHome
+    const isRankingPage = rawPath.includes('shouji-tizi-ceping') || rawPath.includes('zonghe-ceping')
     
-    const breadcrumbItems = [
-      {
-        '@type': 'ListItem',
-        'position': 1,
-        'name': '首页',
-        'item': 'https://shoujizhinan.cc'
-      }
-    ]
+    // Breadcrumbs Schema
+    const breadcrumbSchema = generateBreadcrumbSchema(rawPath, pageData.title, canonicalUrl)
 
-    const pathSegments = rawPath ? rawPath.split('/') : []
-    if (pathSegments.length > 0 && !isHome) {
-      const sectionSlug = pathSegments[0]
-      const sectionNames: Record<string, string> = {
-        'shouji-fanqiang': '手机翻墙',
-        'android': '安卓科学上网',
-        'ios': '苹果科学上网',
-        'proxy-apps': '手机代理App',
-        'tizi-tuijian': '梯子推荐',
-        'jichang-tuijian': '机场推荐',
-        'mianfei-jichang': '免费机场',
-        'wangluo-paizhang': '手机网络排障',
-        'about': '关于我们',
-        'methodology': '评测方法论',
-        'privacy': '隐私保护政策',
-        'disclosure': '推广披露与免责'
-      }
-      
-      const sectionName = sectionNames[sectionSlug] || sectionSlug
-      breadcrumbItems.push({
-        '@type': 'ListItem',
-        'position': 2,
-        'name': sectionName,
-        'item': `https://shoujizhinan.cc/${sectionSlug}`
-      })
-
-      if (pathSegments.length > 1) {
-        breadcrumbItems.push({
-          '@type': 'ListItem',
-          'position': 3,
-          'name': pageData.title || '当前页面',
-          'item': canonicalUrl
-        })
-      }
-    }
-
-    const breadcrumbSchema = {
-      '@context': 'https://schema.org',
-      '@type': 'BreadcrumbList',
-      'itemListElement': breadcrumbItems
-    }
-
-    const primarySchema = isHome ? {
-      '@context': 'https://schema.org',
-      '@type': 'WebSite',
-      'name': '手机指南',
-      'url': 'https://shoujizhinan.cc',
-      'description': pageData.description || '面向手机小白的科学上网完全指南。专注安卓与苹果手机代理App安装、网络排障与低延迟梯子选型。',
-      'potentialAction': {
-        '@type': 'SearchAction',
-        'target': 'https://shoujizhinan.cc/?q={search_term_string}',
-        'query-input': 'required name=search_term_string'
-      }
-    } : {
-      '@context': 'https://schema.org',
-      '@type': 'TechArticle',
-      'headline': pageData.title,
-      'description': pageData.description || '',
-      'mainEntityOfPage': canonicalUrl,
-      'inLanguage': 'zh-CN',
-      'dateModified': '2026-10-23',
-      'author': {
-        '@type': 'Organization',
-        'name': '手机指南评测实验室',
-        'url': 'https://shoujizhinan.cc'
-      },
-      'publisher': {
-        '@type': 'Organization',
+    // Primary Entity Schema
+    let primarySchema: any
+    if (isHome) {
+      primarySchema = {
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
         'name': '手机指南',
-        'logo': {
-          '@type': 'ImageObject',
-          'url': 'https://shoujizhinan.cc/avatar.jpg'
+        'url': 'https://shoujizhinan.cc',
+        'description': pageData.description || '面向手机小白的科学上网完全指南。专注安卓与苹果手机代理App安装、网络排障与低延迟梯子选型。',
+        'publisher': {
+          '@type': 'Organization',
+          'name': '手机指南评测实验室',
+          'url': 'https://shoujizhinan.cc',
+          'logo': {
+            '@type': 'ImageObject',
+            'url': 'https://shoujizhinan.cc/avatar.jpg'
+          }
+        },
+        'potentialAction': {
+          '@type': 'SearchAction',
+          'target': 'https://shoujizhinan.cc/?q={search_term_string}',
+          'query-input': 'required name=search_term_string'
+        }
+      }
+    } else if (isPillar) {
+      primarySchema = {
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        'name': pageData.title,
+        'headline': pageData.title,
+        'description': pageData.description || '',
+        'url': canonicalUrl,
+        'mainEntityOfPage': canonicalUrl,
+        'inLanguage': 'zh-CN',
+        'publisher': {
+          '@type': 'Organization',
+          'name': '手机指南评测实验室',
+          'url': 'https://shoujizhinan.cc'
+        }
+      }
+    } else {
+      primarySchema = {
+        '@context': 'https://schema.org',
+        '@type': 'TechArticle',
+        'headline': pageData.title,
+        'description': pageData.description || '',
+        'mainEntityOfPage': canonicalUrl,
+        'inLanguage': 'zh-CN',
+        'dateModified': '2026-10-23',
+        'author': {
+          '@type': 'Organization',
+          'name': '手机指南评测实验室',
+          'url': 'https://shoujizhinan.cc'
+        },
+        'publisher': {
+          '@type': 'Organization',
+          'name': '手机指南',
+          'logo': {
+            '@type': 'ImageObject',
+            'url': 'https://shoujizhinan.cc/avatar.jpg'
+          }
         }
       }
     }
 
-    return [
+    // Dynamic genuine FAQ Schema extraction
+    const absoluteFilePath = path.resolve('docs', pageData.relativePath)
+    const faqSchema = extractFaqSchema(absoluteFilePath)
+
+    const headElements: HeadConfig[] = [
       ['link', { rel: 'canonical', href: canonicalUrl }],
       ['meta', { property: 'og:title', content: pageData.title }],
       ['meta', { property: 'og:description', content: pageData.description || '' }],
       ['meta', { property: 'og:url', content: canonicalUrl }],
+      ['meta', { property: 'og:type', content: isHome ? 'website' : 'article' }],
+      ['meta', { name: 'twitter:title', content: pageData.title }],
+      ['meta', { name: 'twitter:description', content: pageData.description || '' }],
       ['script', { type: 'application/ld+json' }, JSON.stringify(primarySchema)],
       ['script', { type: 'application/ld+json' }, JSON.stringify(breadcrumbSchema)]
     ]
+
+    if (faqSchema) {
+      headElements.push(['script', { type: 'application/ld+json' }, JSON.stringify(faqSchema)])
+    }
+
+    if (isRankingPage) {
+      const itemListSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        'name': pageData.title,
+        'description': pageData.description || '',
+        'numberOfItems': 5,
+        'itemListElement': [
+          {
+            '@type': 'ListItem',
+            'position': 1,
+            'name': '光速云 (IEPL企业专线)',
+            'url': 'https://shoujizhinan.cc/jichang-tuijian/guangsuyun'
+          },
+          {
+            '@type': 'ListItem',
+            'position': 2,
+            'name': '飞猫云 (BGP隧道中转)',
+            'url': 'https://shoujizhinan.cc/jichang-tuijian/feimaoyun'
+          },
+          {
+            '@type': 'ListItem',
+            'position': 3,
+            'name': '微风网络 (精品专线)',
+            'url': 'https://shoujizhinan.cc/jichang-tuijian/weifeng'
+          },
+          {
+            '@type': 'ListItem',
+            'position': 4,
+            'name': '暮光加速 (BGP优化大带宽)',
+            'url': 'https://shoujizhinan.cc/jichang-tuijian/muguang'
+          },
+          {
+            '@type': 'ListItem',
+            'position': 5,
+            'name': '唯兔云 (平民小额月付)',
+            'url': 'https://shoujizhinan.cc/jichang-tuijian/weitu'
+          }
+        ]
+      }
+      headElements.push(['script', { type: 'application/ld+json' }, JSON.stringify(itemListSchema)])
+    }
+
+    return headElements
   },
   themeConfig: {
     logo: '/avatar.jpg',

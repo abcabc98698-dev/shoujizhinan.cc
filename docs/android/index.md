@@ -5,7 +5,7 @@ description: 面向 Android 手机用户的万字级科学上网全景大系。�
 
 <div class="answer-box">
   <div class="answer-title">Answer-First：安卓手机翻墙的核心痛点与终极解法</div>
-  <p><strong>核心痛点：</strong>安卓手机翻墙体验的最大杀手不是节点慢，而是<strong>系统后台激进杀进程</strong>（导致息屏后几分钟代理自动断开）以及<strong>国产 ROM 纯净模式误报有害软件</strong>。</p>
+  <p><strong>核心痛点：</strong>安卓手机翻墙体验的最大杀手往往在于<strong>系统后台激进杀进程</strong>（导致息屏后几分钟代理自动断开）以及<strong>国产 ROM 纯净模式误报有害软件</strong>，这比单纯的节点速度更影响实际体验。</p>
   <p><strong>三步终极保活准则：</strong></p>
   <ol>
     <li><strong>多任务加锁：</strong>在多任务后台卡片界面，长按或下拉代理 App，点击<strong>小锁图标（锁定后台任务）</strong>。</li>

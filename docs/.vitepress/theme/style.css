@@ -44,6 +44,18 @@ body {
   letter-spacing: -0.02em;
 }
 
+.VPNavBarTitle .logo {
+  border-radius: 50% !important;
+  border: 1.5px solid var(--vp-c-brand-1) !important;
+  box-shadow: 0 2px 6px rgba(37, 99, 235, 0.15) !important;
+  object-fit: cover !important;
+  transition: transform 0.25s ease !important;
+}
+
+.VPNavBarTitle:hover .logo {
+  transform: rotate(6deg) scale(1.08) !important;
+}
+
 /* Answer-First (GEO/AEO) Direct Answer Callout */
 .answer-box {
   margin: 1.5rem 0;

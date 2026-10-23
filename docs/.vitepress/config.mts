@@ -10,7 +10,8 @@ export default defineConfig({
     hostname: 'https://shoujizhinan.cc'
   },
   head: [
-    ['link', { rel: 'icon', href: '/logo.svg' }],
+    ['link', { rel: 'icon', href: '/avatar.jpg' }],
+    ['meta', { property: 'og:image', content: 'https://shoujizhinan.cc/avatar.jpg' }],
     ['meta', { name: 'keywords', content: '手机翻墙, 安卓科学上网, 苹果梯子, iPhone科学上网, 手机代理软件, v2rayNG, Shadowrocket, 小火箭, 手机机场推荐, 移动网络排障' }],
     ['meta', { name: 'author', content: '手机指南 shoujizhinan.cc 评测实验室' }],
     ['meta', { property: 'og:site_name', content: '手机指南' }],
@@ -58,7 +59,7 @@ export default defineConfig({
     ]
   },
   themeConfig: {
-    logo: '/logo.svg',
+    logo: '/avatar.jpg',
     siteTitle: '手机指南',
     nav: [
       { text: '首页', link: '/' },

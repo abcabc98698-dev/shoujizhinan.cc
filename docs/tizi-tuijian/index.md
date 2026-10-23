@@ -166,50 +166,60 @@ description: 面向移动用户的万字级手机梯子选型大系。深度拆�
 
 ---
 
-## 四、精选移动端稳定手机梯子推荐方案（商业直达卡片）
+## 四、精选移动端稳定手机梯子推荐方案（官方实测直达卡片）
 
-<div class="conversion-card">
+<div class="conversion-card" style="border: 2px solid #2563eb; box-shadow: 0 4px 14px rgba(37,99,235,0.12);">
   <div class="conversion-header">
-    <h4>极光专线云 · 手机移动旗舰版</h4>
-    <span class="badge-tier">五星专线极速</span>
+    <div>
+      <h4 style="font-size: 1.35rem; color: #1e40af; margin-bottom: 0.2rem;">🥇 光速云 · 手机移动旗舰版（全站第一首推）</h4>
+      <span style="font-size: 0.8rem; color: #64748b;">2020 年运营老牌 · IEPL 企业专线 ＋ VLESS 现代协议 · 自研+第三方客户端</span>
+    </div>
+    <span class="badge-tier" style="background:#2563eb; color:#fff; font-size:0.85rem; padding:0.3rem 0.8rem;">首选主推</span>
   </div>
   <div class="conversion-body">
     <div class="conversion-specs">
       <ul>
-        <li><strong>核心线路：</strong>深港 / 沪日 IPLC 纯内网专线，物理规避公网 GFW 审查</li>
-        <li><strong>移动端表现：</strong>4G/5G 换频重连 &lt; 0.3s，iPhone 挂机 8 小时耗电仅 2.8%</li>
+        <li><strong>核心线路：</strong>全系部署深港 / 沪日 IEPL 纯内网专线，物理规避公网 GFW 审查</li>
+        <li><strong>移动端表现：</strong>4G/5G 换频重连 &lt; 0.3s，珠海联通实测香港延迟 <strong>22ms</strong>，下行 529Mbps</li>
         <li><strong>解锁能力：</strong>全节点原生 IP，解锁 Netflix 4K, Disney+, ChatGPT, TikTok</li>
-        <li><strong>设备支持：</strong>支持 5 台设备同时在线，不限制安卓、苹果与电脑混用</li>
-        <li><strong>支付与保障：</strong>支持支付宝/微信即时充值，提供 24 小时工单技术响应</li>
+        <li><strong>特色套餐：</strong>
+          <ul>
+            <li><strong>轻量版：</strong>¥99/年（折合 <strong>¥8.25/月</strong>，69GB/月），输入优惠码 <code style="color:#2563eb; font-weight:700;">AMM</code>；</li>
+            <li><strong>极速版：</strong>¥25/月（168GB/月），单节点最高 2.5Gbps 带宽；</li>
+            <li><strong>致敬斯诺克 147 永久套餐：</strong><strong>¥147 一次性买断，247GB 永久不过期</strong>。</li>
+          </ul>
+        </li>
+        <li><strong>设备与售后：</strong>不限设备同时在线，支持 iPhone、安卓与电脑混用</li>
       </ul>
     </div>
     <div class="conversion-action">
-      <div class="conversion-price">¥ 28.00 <span class="conversion-price-unit">/ 月起</span></div>
-      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">150GB 纯专线流量 · 晚高峰4K秒开</div>
-      <a href="/tizi-tuijian/shouji-tizi-ceping" class="conversion-btn">查看实测跑分数据</a>
+      <div class="conversion-price">¥ 25.00 <span class="conversion-price-unit">/ 月 (年付折合 ¥8/月)</span></div>
+      <div style="font-size:0.8rem; color:#dc2626; font-weight:700; margin-bottom:0.5rem;">优惠码：AMM</div>
+      <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="nofollow sponsored noopener" class="conversion-btn" style="background:#2563eb;">直达光速云官网注册</a>
+      <a href="/jichang-tuijian/guangsuyun" style="display:block; font-size:0.82rem; color:#2563eb; margin-top:0.6rem; text-decoration:underline;">查看光速云深度实测报告</a>
     </div>
   </div>
 </div>
 
 <div class="conversion-card">
   <div class="conversion-header">
-    <h4>按量漫游宝 · 手机长效轻度专属</h4>
-    <span class="badge-tier">永不过期按量</span>
+    <h4>🥈 飞猫云 (FlyCat) · 移动轻快高性价比推荐</h4>
+    <span class="badge-tier">平价轻快</span>
   </div>
   <div class="conversion-body">
     <div class="conversion-specs">
       <ul>
-        <li><strong>计费模式：</strong>流量永久不过期，用多少扣多少，杜绝月租浪费</li>
-        <li><strong>节点线路：</strong>涵盖香港、日本、美国、新加坡优质 BGP 中转线路</li>
-        <li><strong>小白友好：</strong>支持一键导入 Shadowrocket、v2rayNG、FlClash</li>
-        <li><strong>适用人群：</strong>仅出差或周末偶查外网、发推特、看 IG 的轻度用户</li>
-        <li><strong>试错成本：</strong>极低起充门槛，一次购买可用数月甚至大半年</li>
+        <li><strong>核心线路：</strong>BGP 隧道中转，亚洲近端节点（香港、日本）低延迟优化</li>
+        <li><strong>资费亮点：</strong>年付折合约 ¥7/月（50GB/月），专属优惠码 <code style="color:#2563eb; font-weight:700;">flycat888</code></li>
+        <li><strong>移动端表现：</strong>Shadowsocks 协议手机待机功耗极低，小白导入零门槛</li>
+        <li><strong>适合人群：</strong>学生、学术查阅外网资料、刷推特与轻度流媒体用户</li>
       </ul>
     </div>
     <div class="conversion-action">
-      <div class="conversion-price">¥ 45.00 <span class="conversion-price-unit">/ 150GB</span></div>
-      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">永久有效流量 · 极佳备用副梯</div>
-      <a href="/tizi-tuijian/dijia-tizi" class="conversion-btn">查看低价选型对比</a>
+      <div class="conversion-price">约 ¥ 7.00 <span class="conversion-price-unit">/ 月起</span></div>
+      <div style="font-size:0.8rem; color:#dc2626; font-weight:700; margin-bottom:0.5rem;">优惠码：flycat888</div>
+      <a href="https://guangs.flycataff.com/#/?code=6uq0Xe9y" target="_blank" rel="nofollow sponsored noopener" class="conversion-btn">直达飞猫云官网</a>
+      <a href="/jichang-tuijian/feimaoyun" style="display:block; font-size:0.82rem; color:#2563eb; margin-top:0.6rem; text-decoration:underline;">查看飞猫云实测跑分</a>
     </div>
   </div>
 </div>

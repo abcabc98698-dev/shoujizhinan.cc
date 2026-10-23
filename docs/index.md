@@ -180,75 +180,85 @@ description: 面向手机小白的移动端科学上网完全指南。零基础�
 
 ---
 
-## 五、精选稳定手机梯子与机场选型方案（商业评测卡片）
+## 五、精选稳定手机梯子与机场选型方案（官方实测主推卡片）
 
-为了帮助手机小白避免掉入劣质黑心机场跑路、虚标带宽的陷阱，本站评测室通过 90 天持续自动化拨测，筛选出以下三家在移动端表现优异的服务体系：
+为了帮助手机小白避免掉入劣质黑心机场跑路、虚标带宽的陷阱，本站评测室通过 90 天持续自动化拨测，从全网 42 家机场中筛选出在移动端综合体验名列前茅的精选服务：
 
-<div class="conversion-card">
+<div class="conversion-card" style="border: 2px solid #2563eb; box-shadow: 0 4px 14px rgba(37,99,235,0.12);">
   <div class="conversion-header">
-    <h4>极速专线云 · IPLC 移动旗舰版</h4>
-    <span class="badge-tier">五星极速推荐</span>
+    <div>
+      <h4 style="font-size: 1.35rem; color: #1e40af; margin-bottom: 0.2rem;">🥇 光速云 · 全能 IEPL 企业专线（全站首推旗舰）</h4>
+      <span style="font-size: 0.8rem; color: #64748b;">2020年稳定运营 5 年+ · 全球 IPLC/IEPL 专线 · VLESS 现代协议 · 自研+第三方客户端</span>
+    </div>
+    <span class="badge-tier" style="background:#2563eb; color:#fff; font-size:0.85rem; padding:0.3rem 0.8rem;">首选主推</span>
   </div>
   <div class="conversion-body">
     <div class="conversion-specs">
       <ul>
-        <li><strong>核心线路：</strong>深港 / 沪日 / 京德 IPLC 纯内网专线，物理无视晚高峰阻断</li>
-        <li><strong>协议支持：</strong>Shadowsocks-2022 / VLESS-Reality / Hysteria 2 全系支持</li>
-        <li><strong>移动端兼容：</strong>完美适配 iOS 小火箭一键导入 / 安卓 v2rayNG 自动更新</li>
-        <li><strong>实测指标：</strong>晚高峰香港延迟 28ms，4G/5G 换频重连时间 &lt; 0.5s</li>
-        <li><strong>设备限制：</strong>支持 5 台设备同时在线，不限制移动端与电脑混用</li>
+        <li><strong>核心线路：</strong>全系部署 IEPL 企业级专线，珠海联通实测香港延迟低至 <strong>22ms</strong>，529Mbps 高下行</li>
+        <li><strong>协议支持：</strong>VLESS 现代抗封锁协议，支持 XTLS 架构，手机待机极度省电、不发烫</li>
+        <li><strong>特色套餐：</strong>
+          <ul>
+            <li><strong>轻量版：</strong>¥99/年（折合约 <strong>¥8.25/月</strong>，69GB/月），输入优惠码 <code style="color:#2563eb; font-weight:700;">AMM</code> 享专属优惠；</li>
+            <li><strong>极速版：</strong>¥25/月（168GB/月），全节点 1.0x 真实倍率，单节点最高 2.5Gbps 带宽；</li>
+            <li><strong>致敬斯诺克 147 永久套餐：</strong><strong>¥147 一次性买断，247GB 永久不过期</strong>，长效防失联神器。</li>
+          </ul>
+        </li>
+        <li><strong>解锁能力：</strong>实测完整解锁 Netflix 4K, Disney+, YouTube, ChatGPT, Claude, TikTok</li>
+        <li><strong>多端支持：</strong>完美适配 iPhone 小火箭一键导入 / 安卓 v2rayNG 自动更新，不限设备数</li>
       </ul>
     </div>
     <div class="conversion-action">
-      <div class="conversion-price">¥ 25.00 <span class="conversion-price-unit">/ 月起</span></div>
-      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">120GB/月 · 晚高峰4K秒开</div>
-      <a href="/jichang-tuijian/zonghe-ceping" class="conversion-btn">查看实测评测报告</a>
+      <div class="conversion-price">¥ 25.00 <span class="conversion-price-unit">/ 月 (年付折合 ¥8/月)</span></div>
+      <div style="font-size:0.8rem; color:#dc2626; font-weight:700; margin-bottom:0.5rem;">优惠码：AMM</div>
+      <a href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" target="_blank" rel="nofollow sponsored noopener" class="conversion-btn" style="background:#2563eb; font-size:1rem; padding:0.75rem 1.2rem;">直达光速云官网注册</a>
+      <a href="/jichang-tuijian/guangsuyun" style="display:block; font-size:0.82rem; color:#2563eb; margin-top:0.6rem; text-decoration:underline;">查看光速云实测跑分长图</a>
     </div>
   </div>
 </div>
 
 <div class="conversion-card">
   <div class="conversion-header">
-    <h4>轻灵云 · 移动弱网抗丢包专属</h4>
-    <span class="badge-tier">弱网首选</span>
+    <h4>🥈 飞猫云 (FlyCat) · 移动轻快高性价比推荐</h4>
+    <span class="badge-tier">平价轻快</span>
   </div>
   <div class="conversion-body">
     <div class="conversion-specs">
       <ul>
-        <li><strong>核心线路：</strong>全节点部署 Hysteria 2 极速拥塞控制协议，专为移动弱网优化</li>
-        <li><strong>适用场景：</strong>地铁、地下车库、高铁及偏远基站网络，丢包率 30% 依然流畅 1080P</li>
-        <li><strong>客户端生态：</strong>提供 Android 专属小白免配置客户端与 iOS 快捷指令配置</li>
-        <li><strong>实测指标：</strong>广州 5G 网络实测下行带宽 680Mbps，抖动 (Jitter) &lt; 2ms</li>
-        <li><strong>性价比：</strong>支持小流量月付方案，适合出差与轻度移动办公用户</li>
+        <li><strong>核心架构：</strong>2023 年平稳运营，主打移动弱网轻快稳定连接与亚洲近端加速</li>
+        <li><strong>资费亮点：</strong>年付折合约 ¥7/月（50GB/月），输入优惠码 <code style="color:#2563eb; font-weight:700;">flycat888</code> 享折上折</li>
+        <li><strong>实测表现：</strong>香港与日本节点延迟低，Shadowsocks 协议手机待机功耗极低</li>
+        <li><strong>适用场景：</strong>适合学生党、学术文献查阅、日常刷推特与轻度流媒体用户</li>
       </ul>
     </div>
     <div class="conversion-action">
-      <div class="conversion-price">¥ 15.00 <span class="conversion-price-unit">/ 月起</span></div>
-      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">80GB/月 · 抗弱网黑科技</div>
-      <a href="/jichang-tuijian/zhuanshu-kehuduan" class="conversion-btn">直达免配置教程</a>
+      <div class="conversion-price">约 ¥ 7.00 <span class="conversion-price-unit">/ 月起</span></div>
+      <div style="font-size:0.8rem; color:#dc2626; font-weight:700; margin-bottom:0.5rem;">优惠码：flycat888</div>
+      <a href="https://guangs.flycataff.com/#/?code=6uq0Xe9y" target="_blank" rel="nofollow sponsored noopener" class="conversion-btn">直达飞猫云官网</a>
+      <a href="/jichang-tuijian/feimaoyun" style="display:block; font-size:0.82rem; color:#2563eb; margin-top:0.6rem; text-decoration:underline;">查看飞猫云实测跑分</a>
     </div>
   </div>
 </div>
 
 <div class="conversion-card">
   <div class="conversion-header">
-    <h4>随心漫游 · 不限时按量计费大包</h4>
-    <span class="badge-tier">长效轻度用户</span>
+    <h4>🥉 微风网络 (BreezeNet) · 平民价位享受 IEPL 专线</h4>
+    <span class="badge-tier">平价专线</span>
   </div>
   <div class="conversion-body">
     <div class="conversion-specs">
       <ul>
-        <li><strong>套餐机制：</strong>流量永久有效，绝不清零，无月租压力，用多少扣多少</li>
-        <li><strong>节点分布：</strong>覆盖香港、日本、新加坡、美国、台湾等 32+ 核心地区</li>
-        <li><strong>流媒体支持：</strong>原生解锁 Netflix, Disney+, YouTube Premium, TikTok, ChatGPT</li>
-        <li><strong>测试表现：</strong>移动 4G 测速平均下行 210Mbps，待机心跳包消耗几乎为零</li>
-        <li><strong>适用人群：</strong>仅出差或周末偶查外网资料、发推特、看 IG 的手机轻度用户</li>
+        <li><strong>核心线路：</strong>部署 IEPL 专线内网传输，物理规避晚高峰公网 GFW 审查波动</li>
+        <li><strong>资费机制：</strong>年付折合约 ¥7/月（50GB/月），专属优惠码 <code style="color:#2563eb; font-weight:700;">flat888</code></li>
+        <li><strong>移动端表现：</strong>iPhone 小火箭秒级握手唤醒，安卓后台常驻省电不发烫</li>
+        <li><strong>适合人群：</strong>追求晚高峰稳定防抖动、但预算控制在每月 10 元以内的用户</li>
       </ul>
     </div>
     <div class="conversion-action">
-      <div class="conversion-price">¥ 58.00 <span class="conversion-price-unit">/ 200GB</span></div>
-      <div style="font-size:0.75rem; color:#64748b; margin-bottom:0.5rem;">永久不过期 · 极低试错成本</div>
-      <a href="/tizi-tuijian/dijia-tizi" class="conversion-btn">查看低价选型对比</a>
+      <div class="conversion-price">约 ¥ 7.00 <span class="conversion-price-unit">/ 月起</span></div>
+      <div style="font-size:0.8rem; color:#dc2626; font-weight:700; margin-bottom:0.5rem;">优惠码：flat888</div>
+      <a href="https://edp01.breezenetaff.com/#/?code=t3huofyI" target="_blank" rel="nofollow sponsored noopener" class="conversion-btn">直达微风网络官网</a>
+      <a href="/jichang-tuijian/weifeng" style="display:block; font-size:0.82rem; color:#2563eb; margin-top:0.6rem; text-decoration:underline;">查看微风网络实测报告</a>
     </div>
   </div>
 </div>

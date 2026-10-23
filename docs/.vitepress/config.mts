@@ -134,13 +134,35 @@ export default defineConfig({
       ],
       '/jichang-tuijian/': [
         {
-          text: '机场推荐大系',
+          text: '机场推荐大系与排行榜',
           items: [
-            { text: '机场推荐选型指南与全景大表', link: '/jichang-tuijian/' },
+            { text: '42家机场全景数据库与排行榜', link: '/jichang-tuijian/' },
+            { text: '晚高峰测速跑分与稳定性报告', link: '/jichang-tuijian/zonghe-ceping' },
             { text: '专属一键免配置客户端机场评测', link: '/jichang-tuijian/zhuanshu-kehuduan' },
             { text: '全协议通用订阅高可用机场精选', link: '/jichang-tuijian/tongyong-dingyue' },
-            { text: '晚高峰测速跑分与稳定性综合报告', link: '/jichang-tuijian/zonghe-ceping' },
             { text: '多设备共享与不限设备数家庭套餐', link: '/jichang-tuijian/duoshebei-taocan' }
+          ]
+        },
+        {
+          text: '⭐ 17家实测图机场深度测评报告',
+          items: [
+            { text: '🥇 光速云（全站首推IEPL专线）', link: '/jichang-tuijian/guangsuyun' },
+            { text: '🥈 飞猫云（平价轻快推荐）', link: '/jichang-tuijian/feimaoyun' },
+            { text: '🥉 微风网络（平价IEPL专线）', link: '/jichang-tuijian/weifeng' },
+            { text: '4. 暮光加速（纯月付120GB）', link: '/jichang-tuijian/muguang' },
+            { text: '5. 星岛梦（平民高性价比）', link: '/jichang-tuijian/xingdaomeng' },
+            { text: '6. 二猫云（纯月付稳定专线）', link: '/jichang-tuijian/ermaoyun' },
+            { text: '7. 唯兔云（9元月付平民入门）', link: '/jichang-tuijian/weitu' },
+            { text: '8. 宇宙云（VLESS现代抗封锁）', link: '/jichang-tuijian/yuzhouyun' },
+            { text: '9. U1S1（纯月付大流量推荐）', link: '/jichang-tuijian/u1s1' },
+            { text: '10. 灵猫网络（月付19元稳定专线）', link: '/jichang-tuijian/lingmao' },
+            { text: '11. 极连云（月付18元高速中转）', link: '/jichang-tuijian/jilianyun' },
+            { text: '12. 光年梯（月付18元老牌稳定）', link: '/jichang-tuijian/guangnianti' },
+            { text: '13. 一翻云（月付20元大流量选型）', link: '/jichang-tuijian/yifanyun' },
+            { text: '14. SOGO 云（多节点平价推荐）', link: '/jichang-tuijian/sogo' },
+            { text: '15. 可信云（月付25元高并发专线）', link: '/jichang-tuijian/kexinyun' },
+            { text: '16. 速界（月付25元极速大带宽）', link: '/jichang-tuijian/sujie' },
+            { text: '17. 全球云（多国家地区节点覆盖）', link: '/jichang-tuijian/quanqiuyun' }
           ]
         }
       ],
